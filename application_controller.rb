@@ -24,7 +24,8 @@ class MyApp < Sinatra::Base
     puts params
     @message = Message.new(params[:user],params[:friend])
     erb :message2
+ 
+  end 
   end 
   
   
-end 
