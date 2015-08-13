@@ -5,6 +5,6 @@ class Message
     @friend=friend.upcase
   end 
   def create_message
-     puts "From: #{@name}  To: #{@friend}"
+     "From: #{@name}  To: #{@friend}"
   end 
 end 

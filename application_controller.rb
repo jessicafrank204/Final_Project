@@ -20,7 +20,8 @@ class MyApp < Sinatra::Base
   get '/message' do
     erb :message
   end
-  post '/message' do
+  post '/message2' do
+    puts params
     @message = Message.new(params[:user],params[:friend])
     erb :message2
   end 
