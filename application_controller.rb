@@ -1,4 +1,5 @@
 require_relative 'models/main.rb' 
+require_relative 'models/message.rb'
 require 'bundler' 
 Bundler.require
 
@@ -19,6 +20,11 @@ class MyApp < Sinatra::Base
   get '/message' do
     erb :message
   end
+  post '/message2' do
+    puts params
+    @message = Message.new(params[:user],params[:friend])
+    erb :message2
+  end 
   
   
 end 
