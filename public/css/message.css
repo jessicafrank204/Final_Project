@@ -1,30 +1,38 @@
 @import url(http://fonts.googleapis.com/css?family=Patua+One);
-#title2{
-  margin:10px;
+#title{
   background-color:#99FF99;
+  margin-bottom: -20px;
 }
 #title-name2{
     font-family:'Patua One';
 }
-#buttons{
-  background-size:10px;
+#text{
   background-color:turquoise;
+  margin: 0px;
+  padding: 20px;
 }
 .button{
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 100px;
+  background-color: white;
+  display: block;
+  margin-top: 20px;
+  
 }
 #button1{
-  position: relative;
-    left: -410px;
+/*   position: fixed; */
+    left: +550px ;
+    top: +300px;
+   
+    
 }
 #button2{
-  position: relative;
-    left: -10px;
-    top: -19px;
+/*   position: fixed; */
+    left: +550px;
+    top: +400px;
 }
 #button3{
-  position: relative;
-    left: +390px;
-    top: -38px;
+/*   position: fixed; */
+    left: +550px;
+    top: +500px;
 }
