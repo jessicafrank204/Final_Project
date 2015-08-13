@@ -30,7 +30,8 @@ class MyApp < Sinatra::Base
         body: @message.create_message
         )
     erb :message2
+ 
+  end 
   end 
   
   
-end 
