@@ -1,10 +1,21 @@
 @import url(http://fonts.googleapis.com/css?family=Patua+One);
 #title{
-  margin:10px;
+  margin-bottom:0px; 
   background-color:#99FF99;
+  margin-bottom:0pt;
+  margin-top:0pt;
+  border-style:solid;
+  border-width:2px;
+  border-color:#00CC00;
 }
 #title-name{
-    font-family:'Patua One';
+  font-family:'Patua One';
+  font-size:40pt;
+  margin-bottom:0pt;
+  margin-top:0pt;
+}
+#title2{
+   font-family:'Patua One';
 }
 #pic1{
   margin: 20px;
@@ -40,4 +51,12 @@
 }
 #pics{
   background-color:turquoise;
+  margin-top:0px;
+  border-width:2px;
+  border-style:solid;
+  border-color:#0033CC;
+}
+.big-words{
+  font-size:20pt;
+  color:red;
 }
