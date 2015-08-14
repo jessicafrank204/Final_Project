@@ -47,6 +47,8 @@ class MyApp < Sinatra::Base
     puts params
     @search = Maps.new(params[:city],params[:state], params.key("Locations_Near_Me"))
     erb :maps
-end 
-end 
+
+  end 
   
+end 
+

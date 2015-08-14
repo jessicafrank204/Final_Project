@@ -1,0 +1,13 @@
+#title{
+  background-color:#99FF99;
+  margin: -20px;
+}
+#title-name{
+    font-family:'Patua One';
+}
+#text{
+  background-color:turquoise;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 20px;
+}
