@@ -1,0 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+#title{
+  margin: -20px;
+  background-color:#99FF99;
+  
+}
+#title-name{
+    font-family:'Patua One';
+}
+#text{
+  background-color: turquoise;
+  margin-left: -20px;
+  margin-right: -20px
+}
