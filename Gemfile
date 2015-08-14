@@ -5,3 +5,4 @@ gem 'shotgun'  #allows you to run this app and test it out locally
 gem 'pry'              
 gem 'sinatra'       
 gem 'twilio-ruby'   
+gem 'twitter'

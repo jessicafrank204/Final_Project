@@ -32,6 +32,12 @@ class MyApp < Sinatra::Base
         )
     erb :message2
   end 
+  post '/tweet_results' do
+    @user_search = Search.new(params[:hashtag])
+    @user_hashtag = params[:hashtag]
+    erb :tweet_results
+	end
+  end 
   
   post '/maps' do
     puts params
