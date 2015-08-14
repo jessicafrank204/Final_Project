@@ -9,7 +9,8 @@
 }
 #text{
   background-color:turquoise;
-  margin: 0px;
+  margin-left: -20px;
+  margin-right: -20px;
   padding: 20px;
 }
 .button{
