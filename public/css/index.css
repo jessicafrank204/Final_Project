@@ -52,5 +52,11 @@
   margin-right: -20px;
 }
 #names {
-  color: red;
+  color: blue;
+  font-size: 40pt;
+  margin-top:0px;
+}
+#our-names{
+  font-size:30pt;
+  margin-bottom:0pt;
 }
