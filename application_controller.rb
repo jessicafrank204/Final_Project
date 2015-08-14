@@ -1,5 +1,6 @@
 require_relative 'models/main.rb' 
 require_relative 'models/message.rb'
+require_relative 'models/maps.rb' #for any model files I want to use here 
 require 'bundler'   #bundle is a gem that requires all the other gems and starts them up; it regulates the other gems - because I require bundler and then run the bundler (line5) the bundler goes to the gemfile for you and already runs the gems so you don't have to manually write require 'twilio-ruby'
 # require 'twilio-ruby'
 Bundler.require
@@ -30,8 +31,13 @@ class MyApp < Sinatra::Base
         body: @message.create_message
         )
     erb :message2
- 
   end 
+  
+  post '/maps' do
+    puts params
+    @search = Maps.new(params[:city],params[:state], params.key("Locations_Near_Me"))
+    erb :maps
   end 
+end 
   
   
