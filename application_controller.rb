@@ -37,7 +37,7 @@ class MyApp < Sinatra::Base
     @user_hashtag = params[:hashtag]
     erb :tweet_results
 	end
-  end 
+
   
   post '/maps' do
     puts params
