@@ -1,5 +1,5 @@
-v<!DOCTYPE html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
  <head>
   <meta charset="UTF-8">
    <link rel="stylesheet" href="css/news.css" type="text/css">
@@ -17,32 +17,21 @@ v<!DOCTYPE html>
    
    <div id = "Second-Block">
      <center>
-       <h2>Stories</h2>
+       <h2 id ="story">Stories</h2>
        <a href="http://www.gysd.org/sharing_breakfast" class="hyper">Sharing breakfest with the homless</a>
        <a href="http://www.gysd.org/real_life_superhero" class="hyper">Super Ewan</a>
        <a href="http://www.rd.com/family/giving-dogs-and-love-to-kids-with-cancer/" class="hyper">Giving dogs and love to kids with Cancer</a>
-       <a href="http://www.macon.com/news/local/article30926712.html">Toys for work!</a>
+       <a href="http://www.macon.com/news/local/article30926712.html" class="hyper">Toys for work!</a>
+       <h2>Enter community service or charities below to see how many times each are being tweeted </h2>
+       <form method='post' action='/tweet_results'>
+        <input type="text" name="hashtag" placeholder="hashtag">
+        <input type="submit">
+        <img src="images/twitter.png" class ="twit">
+     </form>
      </center>
+     
+     
    </div>
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-<!--    <div id = "Second-Block">
-     <center>
-       <h1>Type a Keyword to Search for Your News</h1>
-   <form>
-     <input type="text" name="key" placeholder="Enter Key Word">
-     <input type="submit">
-   </form>
-       </center>
-   </div> -->
-
+  
  </body>
 </html>

@@ -1,15 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Patua+One);
 #title{
-  margin:10px;
+  margin: -20px;
   background-color:#99FF99;
+  
 }
 #title-name{
     font-family:'Patua One';
 }
 #Second-Block{
   background-color: turquoise;
+  margin-left: -20px;
+  margin-right: -20px
 }
 .hyper {
   display:block;
-  font-size: 30px;
+  font-size: 20px;
+}
+.twit{
+  display: block;
+}
+#story{
+  position: relative;
+  top: 10px;
+  text-decoration: underline;
 }

@@ -1,0 +1,11 @@
+@import url(http://fonts.googleapis.com/css?family=Patua+One);
+#title-name{
+    margin: -20px;
+    background-color:#99FF99;
+    font-family:'Patua One';
+}
+#Second-Block{
+  background-color: turquoise;
+  margin-left: -20px;
+  margin-right: -20px
+}
