@@ -37,13 +37,12 @@ class MyApp < Sinatra::Base
     @user_hashtag = params[:hashtag]
     erb :tweet_results
 	end
-  end 
+
   
   post '/maps' do
     puts params
     @search = Maps.new(params[:city],params[:state], params.key("Locations_Near_Me"))
     erb :maps
-  end 
 end 
-  
+end 
   
