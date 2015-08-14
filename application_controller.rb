@@ -16,6 +16,9 @@ class MyApp < Sinatra::Base
   get '/time' do
     erb :time
   end 
+  get '/recycle' do
+    erb :recycle
+  end 
   get '/news' do    #when the user clicks on the picture, it goes to /news and in the controller, I say that when the user makes a get request to the server to go to /news, then I want to go to the news.erb file
     erb :news
   end 
