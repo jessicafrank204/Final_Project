@@ -16,6 +16,9 @@ class MyApp < Sinatra::Base
   get '/time' do
     erb :time
   end 
+  get '/recycle' do
+    erb :recycle
+  end 
   get '/news' do    #when the user clicks on the picture, it goes to /news and in the controller, I say that when the user makes a get request to the server to go to /news, then I want to go to the news.erb file
     erb :news
   end 
@@ -43,7 +46,12 @@ class MyApp < Sinatra::Base
     puts params
     @search = Maps.new(params[:city],params[:state], params.key("Locations_Near_Me"))
     erb :maps
+<<<<<<< HEAD
   end 
   end 
   
+=======
+end 
+end 
+>>>>>>> 04acf44d6a6265c1aa7ae7eb8eca43fbb2c7a15b
   
