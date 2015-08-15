@@ -45,7 +45,7 @@ class MyApp < Sinatra::Base
   
   post '/maps' do
     puts params
-    @search = Maps.new(params[:city],params[:state], params.key("Locations_Near_Me"))
+    @search = Maps.new(params[:city],params[:state],params.key("Locations_Near_Me"))
     erb :maps
 
   end 
