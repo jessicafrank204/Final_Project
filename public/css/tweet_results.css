@@ -7,7 +7,9 @@
 #Second-Block{
   background-color: turquoise;
   margin-left: -10px;
-  margin-right: -10px
+  margin-right: -10px;
+  padding: 10px;
+  padding-top: 20px;
 }
 #words{
   margin: 20px;
@@ -16,6 +18,19 @@
   padding:20px;
 }
 #words2{
-  margin: 20px;
+  margin: 10px;
   margin-top:0px;
+  padding-left:20px;
+}
+#label{
+  color:blue;
+  padding-bottom:0px;
+}
+#tweet_user{
+  border-style: solid;
+  border-width:2px;
+  border-color: white;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color:#B2FFFF;
 }

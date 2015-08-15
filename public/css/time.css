@@ -1,6 +1,5 @@
 h1 { 
-  color: blue;
-  
+  color: black;
 }
 li{
   font-size: 30px;
@@ -24,39 +23,7 @@ li{
 #title2{
    font-family:'Patua One';
 }
-#pic1{
-  margin: 20px;
-  background-color:blue;
-  border-color:yellow;
-  border-style:solid;
-  border-width:5px;
-}
-#pic2{
-/*   margin-top: 20px;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  margin-right:800px; */
-  margin:20px;
-  background-color:blue;
-  border-color:yellow;
-  border-style:solid;
-  border-width:5px;
-}
-#pic3{
-  margin: 20px;
-  background-color:blue;
-  border-color:yellow;
-  border-style:solid;
-  border-width:5px;
-}
-#pic4{
-  margin: 20px;
-  background-color:blue;
-  border-color:yellow;
-  border-style:solid;
-  border-width:5px;
-}
-#pics{
+#links{
   background-color:turquoise;
   margin-top:0px;
   border-width:2px;

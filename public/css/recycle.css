@@ -2,6 +2,9 @@
 #title{
   margin: -20px;
   background-color:#99FF99;
+  border-style:solid;
+  border-width:2px;
+  border-color:#00CC00;
   
 }
 #title-name{
@@ -10,7 +13,10 @@
 #text{
   background-color: turquoise;
   margin-left: -20px;
-  margin-right: -20px
+  margin-right: -20px;
+  border-width:2px;
+  border-style:solid;
+  border-color:#0033CC;
 }
 .hyper {
   display: block;

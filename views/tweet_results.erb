@@ -7,11 +7,24 @@
   </head>
   <body>
     <div id="title-name">
+      <center>
       <h1 id="words">Tweet Results</h1>
+      </center>
     </div>
     <div id="Second-Block">
-      <h2 id="words2"><%= @user_search.request %></h2>
+<!--       <h2 id="words2"><%= @user_search.request %></h2> -->
+
+      
+      <% @user_search.request.each do |key, value| %>
+      <div id="tweet_user">
+          <h2 id="words2"><span id="label">TWEET= </span><%=key%></h2>
+        <h2 id="words2"><span id="label">USER= </span><img src="images/twitter.png" width=50px><%=value  %></h2>
+       </div>
+      <%end%>
+        
+     <center> 
     <img src="images/twitter.png">
+      </center>
     </div>
   </body>
 </html>
