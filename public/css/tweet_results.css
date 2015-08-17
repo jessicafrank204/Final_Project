@@ -2,10 +2,16 @@
 #title-name{
     margin: -10px;
     background-color:#99FF99;
-    font-family:'Patua One';
+/*     font-family:'Patua One'; */
+    border-style:solid;
+    border-width:2px;
+    border-color:#00CC00;
 }
 #Second-Block{
   background-color: turquoise;
+  border-width:2px;
+  border-style:solid;
+  border-color:#0033CC;
   margin-left: -10px;
   margin-right: -10px;
   padding: 10px;
